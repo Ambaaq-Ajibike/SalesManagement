@@ -1,0 +1,46 @@
+/* Styles for form */
+#orderForm {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #d6e9fd;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+/* Styles for form elements */
+#orderForm div {
+    margin-bottom: 10px;
+}
+
+#orderForm label {
+    display: grid;
+    width: 120px;
+}
+
+#orderForm input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #5c5f60;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 2px;
+}
+
+#orderForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#orderForm button:hover {
+    background-color: #0056b3;
+}
+
+.label {
+    margin-bottom: 3px;
+}

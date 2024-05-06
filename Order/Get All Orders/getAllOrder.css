@@ -1,0 +1,21 @@
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styles for table header */
+.data-table th {
+    background-color: #a4a4a4;
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styles for table data */
+.data-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(213, 204, 204);
+    color: #171616;
+}

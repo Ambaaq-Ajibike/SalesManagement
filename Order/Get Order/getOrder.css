@@ -1,0 +1,89 @@
+
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #3a3d3d;
+    border: 1px solid #100e0e;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 58, 58, 0.1);
+}
+
+.header {
+    color: rgb(172, 141, 90);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(255, 153, 0);
+}
+
+.gg {
+    color: rgb(255, 106, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ff {
+    text-align: center;
+    margin: auto;
+}
+
+.itemList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for list items */
+.item {
+    border: 1px solid #ed3f3f;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+
+.itemName {
+    font-weight: bold;
+}
+
+.itemPrice, .itemUnits {
+    margin-top: 5px;
+}
+
+.container-list {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #3a3d3d;
+    border: none;
+    padding: 0px;
+    margin: 0px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 58, 58, 0.1);
+}
+
+.list-header {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(172, 141, 90);
+    margin-bottom: 0px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 10fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+}
